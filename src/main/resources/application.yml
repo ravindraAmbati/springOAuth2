@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: local
+
+---
+spring:
+  profiles: local
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 480269910686-sumegaqfabotricu62u3fihd7mm13njd.apps.googleusercontent.com
+            clientSecret: h1l1ZhJ095fLoQzM7i_VMUfB
+
+
